@@ -1,9 +1,9 @@
 const init_state = [
-    {title: 'item #1'},
-    {title: 'item #2'},
-    {title: 'item #3'},
-    {title: 'item #4'},
-    {title: 'item #5'},
+    {title: 'process #1', id: 1},
+    {title: 'process #2', id: 2},
+    {title: 'process #3', id: 3},
+    {title: 'process #4', id: 4},
+    {title: 'process #5', id: 5},
 ];
 
 const processes = (state = init_state, action) => {

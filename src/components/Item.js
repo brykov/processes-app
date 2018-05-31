@@ -1,7 +1,8 @@
 import React from 'react'
+import s from './Item.css'
 
 const Item = ({ title }) => (
-    <li>
+    <li className={s.Item} >
         {title}
     </li>
 );

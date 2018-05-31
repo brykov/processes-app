@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import s from './App.css';
 import ListContainer from './containers/ListContainer'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
+      <div className={s.App}>
+        <header className={s["App-header"]}>
+          <h1 className={s["App-title"]}>Welcome to React</h1>
         </header>
         <ListContainer/>
       </div>

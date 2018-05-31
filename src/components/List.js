@@ -1,10 +1,11 @@
 import React from 'react'
 import Item from './Item'
+import s from './List.css'
 
 const List = ({items}) => (
-    <ul>
+    <ul className={s.List}>
         {items.map(item =>
-            <Item
+            <Item key={item.id}
                 {...item}
             />
         )}
