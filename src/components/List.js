@@ -3,13 +3,13 @@ import Item from './Item'
 import s from './List.css'
 
 const List = ({items}) => (
-    <ul className={s.List}>
+    <div className={s.List}>
         {items.map(item =>
             <Item key={item.id}
                 {...item}
             />
         )}
-    </ul>
+    </div>
 );
 
 

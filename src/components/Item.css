@@ -1,3 +1,10 @@
 .Item {
+  margin: 1em 0;
+  padding: 1em;
+  background: #f6f6f6;
+  cursor: pointer;
+}
 
+.Item:hover {
+  text-decoration: underline;
 }
