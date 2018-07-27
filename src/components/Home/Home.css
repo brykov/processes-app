@@ -1,7 +1,7 @@
-.App {
+.Home {
 }
 
-.AppTitle {
+.HomeTitle {
   background-color: #222;
   color: white;
   margin: 0;
@@ -9,6 +9,6 @@
   font-size: 1.5em;
 }
 
-.AppIntro {
+.HomeIntro {
   font-size: large;
 }

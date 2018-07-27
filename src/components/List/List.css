@@ -1,8 +1,13 @@
+.List {
+  padding: 1em;
+}
+
 .Item {
   margin: 1em 0;
   padding: 1em;
   background: #f6f6f6;
   cursor: pointer;
+  display: block;
 }
 
 .Item:hover {
